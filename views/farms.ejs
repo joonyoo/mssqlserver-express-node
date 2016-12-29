@@ -5,69 +5,53 @@
 
 <h2><%= farms[0].agent_full_name %>'s Farms</h2>
 
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
 
 <div class="container">
 
 
   <table id="myTable">
-    <tr class="header">
-      <th style="width:5%;">FARM ID</th>
-      <th style="width:10%;">STATUS</th>
-      <th style="width:10%;">FARM TYPE</th>
-      <th style="width:10%;">MAILER DESCRIPTION</th>
-      <th style="width:10%;">FARM DATE</th>
-      <th style="width:10%;">NEIGHBORHOOD</th>
-      <th style="width:10%;">MAILER COST</th>
-      <th style="width:10%;">MAILER COUNT</th>
-      <th style="width:25%;">NOTES</th>
-    </tr>
-  <% farms.forEach(function(farm){ %>
-    <tr class='clickable-row'  data-href = ''  >
-      <td><%= farm.farm_id %></td>
-      <td><%= farm.status_description %></td>
-      <td><%= farm.farm_type_description  %></td>
-      <td><%= farm.mailer_description  %></td>
-      <td><%= farm.Farm_Date  %></td>
-      <td><%= farm.neighborhood  %></td>
-      <td><%= farm.mailer_cost %></td>
-      <td><%= farm.mailer_count  %></td>
-      <td><%= farm.Notes%></td>
-    </tr>
-  <% }); %>
+    <thead>
+      <tr class="header">
+        <th style="width:5%;">FARM ID</th>
+        <th style="width:10%;">STATUS</th>
+        <th style="width:10%;">FARM TYPE</th>
+        <th style="width:10%;">MAILER DESCRIPTION</th>
+        <th style="width:10%;">FARM DATE</th>
+        <th style="width:10%;">NEIGHBORHOOD</th>
+        <th style="width:10%;">MAILER COST</th>
+        <th style="width:10%;">MAILER COUNT</th>
+        <th style="width:25%;">NOTES</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% farms.forEach(function(farm){ %>
+        <tr class='clickable-row'  data-href = ''  >
+          <td><%= farm.farm_id %></td>
+          <td><%= farm.status_description %></td>
+          <td><%= farm.farm_type_description  %></td>
+          <td><%= farm.mailer_description  %></td>
+          <td><%= moment(farm.Farm_Date).format('MM/DD/YYYY') %></td>
+          <td><%= farm.neighborhood  %></td>
+          <td><%= farm.mailer_cost %></td>
+          <td><%= farm.mailer_count  %></td>
+          <td><%= farm.Notes%></td>
+        </tr>
+      <% }); %>
  
-
+    </tbody>
   </table>
 
 </div>
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-<script>
-// function myFunction() {
-//   // Declare variables 
-//   var input, filter, table, tr, td, i;
-//   input = document.getElementById("myInput");
-//   filter = input.value.toUpperCase();
-//   table = document.getElementById("myTable");
-//   tr = table.getElementsByTagName("tr");
-
-//   // Loop through all table rows, and hide those who don't match the search query
-//   for (i = 0; i < tr.length; i++) {
-//     td = tr[i].getElementsByTagName("td")[1];
-//     if (td) {
-//       if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
-//         tr[i].style.display = "";
-//       } else {
-//         tr[i].style.display = "none";
-//       }
-//     }       
-//   }
-// }
 
 
-
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('#myTable').DataTable( {
+        "order": [[ 1, "desc" ]]
+    } );
+} );
 // jQuery(document).ready(function($) {
 //     $(".clickable-row").click(function() {
 //         window.document.location = $(this).data("href");
@@ -75,6 +59,9 @@
 // });
 
 </script>
+
+
+
 
 
 </body>

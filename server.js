@@ -1,6 +1,7 @@
 var express = require("express"),
     app     = express(),
-    bodyParser = require("body-parser");
+    bodyParser = require("body-parser")
+    ;
 
 
  //get configuration settings for database connection
@@ -11,6 +12,7 @@ var sql = require("seriate");
 
 var util = require('util');
 
+var moment = require('moment');
 
 app.use(bodyParser.urlencoded({extended: true}));
 //app.use(expressSanitizer());
@@ -68,7 +70,7 @@ app.get("/", function(req, res){
         }
       }).then( function(results){
           console.log(results[0]);
-          res.render("farms", {farms: results})
+          res.render("farms", {farms: results, moment:moment})
 
           }, function (err){
           console.log ("Something bad happened:", err);
