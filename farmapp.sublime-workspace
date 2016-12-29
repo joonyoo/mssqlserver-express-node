@@ -1,0 +1,822 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"co",
+				"console"
+			],
+			[
+				"searc",
+				"searchvar"
+			],
+			[
+				"args",
+				"argsdeprecated"
+			],
+			[
+				"filer",
+				"filterAll"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"set",
+				"setStyle"
+			],
+			[
+				"prop",
+				"properties"
+			],
+			[
+				"res",
+				"resetStyle"
+			],
+			[
+				"sold",
+				"soldprice_avg"
+			],
+			[
+				"rep",
+				"repaintMap"
+			],
+			[
+				"c",
+				"color"
+			],
+			[
+				"x",
+				"xAxisLabel"
+			],
+			[
+				"dom",
+				"dom_avg"
+			],
+			[
+				"d",
+				"dimMapHood"
+			],
+			[
+				"ge",
+				"getBounds"
+			],
+			[
+				"ho",
+				"hood"
+			],
+			[
+				"pro",
+				"properties"
+			],
+			[
+				"hood",
+				"hoodlayer"
+			],
+			[
+				"dim",
+				"dimMonthSold"
+			],
+			[
+				"RES",
+				"RES"
+			],
+			[
+				"pre",
+				"preTranspose"
+			],
+			[
+				"get",
+				"getCenter"
+			],
+			[
+				"sub",
+				"SUBREGION"
+			],
+			[
+				"dimH",
+				"dimMapHood"
+			],
+			[
+				"firee",
+				"fireEvent"
+			],
+			[
+				"filter",
+				"filterAll"
+			],
+			[
+				"el",
+				"elasticY"
+			],
+			[
+				"sol",
+				"soldprice_avg"
+			],
+			[
+				"pr",
+				"properties"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"fac",
+				"facilitiesGroup"
+			],
+			[
+				"par",
+				"parsedCSV"
+			],
+			[
+				"un",
+				"uniqueNames"
+			],
+			[
+				"hbr",
+				"HBR_ID"
+			],
+			[
+				"ma",
+				"mapbox"
+			],
+			[
+				"add",
+				"addFeature"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "server.js",
+			"settings":
+			{
+				"buffer_size": 3879,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/form.ejs",
+			"settings":
+			{
+				"buffer_size": 102981,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sql/get_agents.sql",
+			"settings":
+			{
+				"buffer_size": 368,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/agents.ejs",
+			"settings":
+			{
+				"buffer_size": 2366,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sql/get_agents_farms.sql",
+			"settings":
+			{
+				"buffer_size": 495,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 196.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"gist",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in\t\t",
+				"Package Control: Install Package"
+			],
+			[
+				"add",
+				"Package Control: Add Repository"
+			],
+			[
+				"regex",
+				"Set Syntax: Regular Expression"
+			]
+		],
+		"width": 674.0
+	},
+	"console":
+	{
+		"height": 174.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/H/CODE/Node/FarmApp",
+		"/H/CODE/Node/FarmApp/sql",
+		"/H/CODE/Node/FarmApp/views"
+	],
+	"file_history":
+	[
+		"/H/CODE/Node/FarmApp/views/farms.ejs",
+		"/H/CODE/Node/FarmApp/views/agents.ejs",
+		"/H/CODE/Node/FarmApp/config/secret.js",
+		"/C/inetpub/wwwroot/marketreport3quarter/index.html",
+		"/D/Node/workspace/RESTful Routing/BlogSolution/app.js",
+		"/H/CODE/Node/FarmApp/views/form.ejs",
+		"/H/CODE/Node/FarmApp/server.js",
+		"/H/CODE/Node/mongo/server.js",
+		"/H/CODE/Node/FarmApp",
+		"/H/CODE/Node/api/app.js",
+		"/H/CODE/Node/api/views/results.ejs",
+		"/H/CODE/Node/api/views/search.ejs",
+		"/H/CODE/Node/CasperJS_Scraping/ref/phantomtest.js",
+		"/H/CODE/Node/CasperJS_Scraping/twit.js",
+		"/H/CODE/Node/api/views/search.ehs",
+		"/H/CODE/Node/codedemycode/server.js",
+		"/H/CODE/Node/CasperJS_Scraping/googletest.js",
+		"/H/CODE/Node/CasperJS_Scraping/hbr.js",
+		"/H/CODE/Node/CasperJS_Scraping/twits.js",
+		"/H/CODE/Node/CasperJS_Scraping/twitPic.png",
+		"/H/CODE/Node/CasperJS_Scraping/ref/date.html",
+		"/H/CODE/Node/CasperJS_Scraping/bbuy.js",
+		"/H/CODE/Node/CasperJS_Scraping/test.js",
+		"/H/CODE/Node/CasperJS_Scraping/ref/package.json",
+		"/H/CODE/Node/CasperJS_Scraping/ref/pycoders_3.js",
+		"//Prodweb4/d$/staging.locationshawaii.com/data/hoodStats.json",
+		"//Prodweb4/d$/staging.locationshawaii.com/Views/Partials/MarketData.cshtml",
+		"/C/inetpub/wwwroot/oreomap_v10/sql/pullHoodStats.sql",
+		"/C/inetpub/wwwroot/marketreport3quarter/app.js",
+		"/H/CODE/Batch/.RData",
+		"/C/inetpub/wwwroot/oreomap_v1/app.js",
+		"/C/inetpub/wwwroot/archive/rendermaps2/data/geodata.json",
+		"/C/inetpub/wwwroot/marketreport3/data/islandStats.json",
+		"/C/inetpub/wwwroot/archive/rendermaps2/SQLtoJsonbyHBR.js",
+		"/C/inetpub/wwwroot/archive/rendermaps2/data/sales.json",
+		"/D/ToUpload/Oahu MLS sales data CND.txt",
+		"/C/Users/joon.yoo/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"//proddata/Project$/Research/2016Planning/RETS GAP ANALYSIS/BMLS_Office_Export20130414332.txt",
+		"/C/inetpub/wwwroot/archive/rendermaps2/sql/getGisByHbrId.sql",
+		"//proddata/Project$/Research/2016Planning/RETS GAP ANALYSIS/BMLS_Agent_HBR_Export20130418348.txt",
+		"//proddata/Project$/Research/2016Planning/RETS GAP ANALYSIS/BMLS_DListing_HBR_export201610190202.txt",
+		"/C/inetpub/wwwroot/oreomap_v9/test_pull/package.json",
+		"/C/inetpub/wwwroot/archive/rendermaps2/index.html",
+		"/C/inetpub/wwwroot/simple_map/index.html",
+		"/H/prep_bcp_gsheet.csv",
+		"/C/inetpub/wwwroot/marketreport3/index.html",
+		"/C/inetpub/wwwroot/oreomap_v1/sql/pullHoodStats.sql",
+		"/C/inetpub/wwwroot/marketreport3/app.js",
+		"/C/inetpub/wwwroot/oreomap_v1/pullData.js",
+		"/C/inetpub/wwwroot/oreomap_v1/js/pullData.js",
+		"/C/inetpub/wwwroot/oreomap_v9/js/d3.tip.js",
+		"/C/inetpub/wwwroot/d3-tip-master/examples/performance.html",
+		"/C/inetpub/wwwroot/d3-tip-master/index.js",
+		"/C/Users/joon.yoo/AppData/Roaming/Sublime Text 3/Packages/User/randon.sql",
+		"/C/Users/joon.yoo/AppData/Roaming/Sublime Text 3/Packages/User/Gist.sublime-settings",
+		"/C/Users/joon.yoo/AppData/Roaming/Sublime Text 3/Packages/Gist/Gist.sublime-settings",
+		"/C/Users/joon.yoo/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/inetpub/wwwroot/jquery-plugin-circliful-master/index.html",
+		"/C/Program Files/Sublime Text 3/test.sql",
+		"/C/inetpub/wwwroot/oreomap_v8/css/main.css",
+		"/C/inetpub/wwwroot/oreomap_v8/css/dc.css",
+		"/C/inetpub/wwwroot/jquery-ui-1.12.0.custom/index.html",
+		"/C/inetpub/wwwroot/dcjs_leaflet2/index.html",
+		"/C/inetpub/wwwroot/map_dashboard/index.html",
+		"/C/inetpub/wwwroot/archive/dc_leaflet/index.html",
+		"/C/inetpub/wwwroot/archive/dc_leaflet/dc.leaflet.js",
+		"/C/inetpub/wwwroot/dc_simple/index.html",
+		"/C/inetpub/wwwroot/oreomap/index.html",
+		"/C/inetpub/wwwroot/oreomap_v3/js/script2.js",
+		"/C/inetpub/wwwroot/oreomap_v5/js/classybrew.js",
+		"/C/inetpub/wwwroot/dcjs_leaflet/index.html",
+		"/C/inetpub/wwwroot/oreomap_v4/index.html",
+		"/C/inetpub/wwwroot/oreomap_v4/js/script2.js",
+		"/C/inetpub/wwwroot/oreomap_v4/islandslatlong",
+		"/C/Users/joon.yoo/AppData/Roaming/Sublime Text 3/Packages/Highlight/SublimeHighlight.sublime-settings",
+		"/C/Users/joon.yoo/AppData/Roaming/Sublime Text 3/Packages/User/SublimeHighlight.sublime-settings",
+		"/C/Users/joon.yoo/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/joon.yoo/AppData/Roaming/Sublime Text 3/Packages/User/SQL Beautifier.sublime-settings",
+		"/C/Users/joon.yoo/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/joon.yoo/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/joon.yoo/AppData/Roaming/Sublime Text 3/Packages/SqlBeautifier/SQL Beautifier.sublime-settings",
+		"/C/inetpub/wwwroot/snack/index.html",
+		"/C/inetpub/wwwroot/oreomap/js/pullData.js",
+		"/C/inetpub/wwwroot/oreomap/sql/pullHoodStats.sql",
+		"/C/inetpub/wwwroot/oreomap/sql/soldListings.sql",
+		"/C/inetpub/wwwroot/oreomap/data/hoodStats.json",
+		"/C/Users/joon.yoo/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/inetpub/wwwroot/snack/css/snack.css",
+		"/C/inetpub/wwwroot/classybrew/index.html",
+		"/C/inetpub/wwwroot/oreomap_v2/index.html",
+		"/C/inetpub/wwwroot/oreomap_v2/js/script2.js",
+		"/C/inetpub/wwwroot/classybrew/storm_events.js",
+		"/C/inetpub/wwwroot/oreomap/js/script.js",
+		"/C/inetpub/wwwroot/oreomap/js/script2.js",
+		"/C/inetpub/wwwroot/simple_table/index.html",
+		"/D/My Downloads/LOC_3290-Sprint7-20160617/LOC_sprint7/assets/js/utils/mortgage-calculator.js",
+		"/C/inetpub/wwwroot/marketreport2quarter/sql/getIslandStats.sql",
+		"/C/inetpub/wwwroot/marketreport2quarter/sql/getStateStats.sql",
+		"/C/inetpub/wwwroot/rendertables/index.html",
+		"/C/inetpub/wwwroot/marketreport2/sql/getIslandStats.sql",
+		"/C/inetpub/wwwroot/marketreport2/sql/getStateStats.sql",
+		"/C/inetpub/wwwroot/oreomap/node_modules/seriate/node_modules/mssql/lib/datatypes.js",
+		"/H/CODE/region_simple.geojson",
+		"/H/CODE/all_islands_simple.geojson",
+		"/D/Queries_Archived/MLS/OREO Sales Data incl coding for Terradatum vids.sql",
+		"/C/inetpub/wwwroot/tmk_search/index.html",
+		"/J/BI/GIS/TMK_Centers/tmkCenters.geojson",
+		"/C/inetpub/wwwroot/marketreport/data/oahuStats.json",
+		"/C/inetpub/wwwroot/marketreport/data/hoodStats.json",
+		"/C/inetpub/wwwroot/oreomap/data/soldListingsabba.json",
+		"/C/inetpub/wwwroot/oreomap/sql/pullSoldListings.sql",
+		"/C/inetpub/wwwroot/oreomap/data/soldListings1.json",
+		"/C/inetpub/wwwroot/oreomap/data/soldListings.json",
+		"/C/inetpub/wwwroot/oreomap-secured/js/oahu.js",
+		"/C/inetpub/wwwroot/security/index.html",
+		"/C/inetpub/wwwroot/oreomap/js/classybrew.js",
+		"/C/inetpub/wwwroot/multi_heat/index.html",
+		"/C/inetpub/wwwroot/map_dashboard/data/nashPermits.json",
+		"/C/inetpub/wwwroot/dc_simple/simple-vis.js",
+		"/C/inetpub/wwwroot/oreomap/js/test.js",
+		"/C/inetpub/wwwroot/rendertables/app.js",
+		"/C/inetpub/wwwroot/oreomap/js/pullSoldListings.js",
+		"/H/CODE/Batch/download_gheet_as_csv.bat",
+		"/H/CODE/Batch/refresh_tableau.bat",
+		"/C/inetpub/wwwroot/rendertables/data/hoodStats.json",
+		"/C/inetpub/wwwroot/rendertables/sql/getHoodStats.sql",
+		"/C/inetpub/wwwroot/rendertables/generateTable.js",
+		"/C/inetpub/wwwroot/d3_simple/index.html"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"var config = {\n\t\"server\": \"prodsql\",\n\t\"user\":\"nodejs\",\n\t\"password\":\"chichi1212\",\n\t\"database\": \"BI\",\n};",
+			"app",
+			"var",
+			"die",
+			"});\n",
+			"%26",
+			"%3D",
+			"%3F",
+			"%2F",
+			"%3A",
+			"days on mar",
+			"dom",
+			"console",
+			"\\t",
+			"pietip",
+			"pieti",
+			"piet",
+			"domch",
+			"\\\\n",
+			"\\n",
+			"pietip",
+			"all()",
+			"groupall",
+			"infin",
+			"hood",
+			"console.log",
+			"dimMonthC",
+			"soldPriceGroup",
+			"dom",
+			"soldPriceRangeChart",
+			"range",
+			"100",
+			"'No'",
+			"'YES'",
+			"soldprice",
+			"0\n,HireDate\n,0\n,AgentId\n,PruAgentId\n,HireDate\n,0\n,0\n,0.00\n,0\n,1\n,0\n,0\n,0.00\n,0.00\n,0\n,0\n,0\n,0\n,0\n,0\n,0\n,0\n,0\n,0\n,0\n,0\n,0\n,0\n,0\n,0\n,0\n,0\n,0\n,0\n,0\n,0\n,0\n,0\n,0.00\n,0.00\n,0.00\n,0.00\n,0.00\n,0.00\n,0.00\n,0.00\n,0.00\n,0.00\n,0\n,NULL",
+			"\t",
+			")\t",
+			"\t",
+			"image",
+			"tool",
+			"leaflet",
+			"h4",
+			"soldprice",
+			"solprice",
+			"info.upda",
+			"getsty",
+			"getsy",
+			"eachlay",
+			"getStyle",
+			"sets",
+			"mouseout",
+			"layer",
+			"fore",
+			"mouseout",
+			"hoodGeoJson",
+			"classy",
+			"zoomtofe",
+			"hoodlayer",
+			"info.up",
+			"getStyle",
+			"mouseout",
+			"zoomToFeature",
+			"style",
+			"soldprice_avg",
+			"hoodlayer",
+			"zoomToFeature",
+			"info",
+			"legend",
+			"leg",
+			"legn",
+			"legne",
+			"_featureOptions",
+			"zoomToFeature",
+			"zoom",
+			";\n",
+			"dimHood",
+			"hoodAvgGroup",
+			"testStats",
+			"range",
+			".label",
+			"hoodchart",
+			"piechar",
+			"rowchart",
+			"month",
+			"rowchart",
+			"zoomToFeature",
+			"zoomto",
+			"zoomtofe",
+			"zoomf",
+			"repaintMap",
+			"dimhood",
+			"dhimhood",
+			"dimHood",
+			"refres",
+			"dim",
+			"filter",
+			"click",
+			"zoomToFeature",
+			"repain",
+			"remap",
+			"dimMapHood",
+			"map",
+			"mao",
+			"click",
+			"hoodAvgGroup",
+			"map",
+			"hoodAvgGroup",
+			"Error: <g> attribute transform: Trailing garbage, \"translate(0,NaN)\".",
+			"hoodAvgGroup",
+			"CLOSINGDATE",
+			"dom",
+			"dimDom",
+			"closingDates",
+			"dimSearchHood",
+			"monthSold",
+			"monthFormat(fullDateFormat.parse(d.CLOSINGDATE))",
+			"crossfilter",
+			"%",
+			"100",
+			"legend",
+			"all",
+			"resetr",
+			"rowchar",
+			"prop",
+			"dimSoldPrice",
+			"rowchar",
+			"5"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"&",
+			"=",
+			"?",
+			"/",
+			":",
+			",",
+			"0",
+			"1",
+			"\"",
+			"",
+			"\"",
+			","
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "server.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3879,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								445,
+								445
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "views/form.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 102981,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4635,
+								4635
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/EJS 2/EJS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4864.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "sql/get_agents.sql",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 368,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								368,
+								3
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SQL/SQL.sublime-syntax",
+							"tab_size": 6,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "views/agents.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2366,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1470,
+								1470
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/EJS 2/EJS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1425.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "sql/get_agents_farms.sql",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 495,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								367,
+								367
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.574313408724,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 50.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 124.0
+	},
+	"pinned_build_system": "Packages/User/node.sublime-build",
+	"project": "farmapp.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 217.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

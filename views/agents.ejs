@@ -1,0 +1,74 @@
+<% include partials/header %>
+
+
+<body>
+  <div class="container">
+
+    <h2>Agents</h2>
+
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+
+    <div class="container">
+
+
+      <table id="myTable">
+        <tr class="header">
+          <th style="width:20%;">Photo</th>
+          <th style="width:60%;">Agent Name</th>
+          <th style="width:20%;">Count of farms</th>
+
+        </tr>
+      <% agents.forEach(function(agent){ %>
+        <tr class='clickable-row'  data-href = '/farm/<%= agent.pruagentid %>'  >
+          <td>
+            <div class="thumbnail" >
+              <img src="http://www.locationshawaii.com/<%= agent.photo %>">
+            </div>
+          </td> 
+          <td><%= agent.fullname %></td>
+          <td><%= agent.farm_count %></td>
+        </tr>
+          <% }); %>
+     
+      </table>
+
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script>
+    function myFunction() {
+      // Declare variables 
+      var input, filter, table, tr, td, i;
+      input = document.getElementById("myInput");
+      filter = input.value.toUpperCase();
+      table = document.getElementById("myTable");
+      tr = table.getElementsByTagName("tr");
+
+      // Loop through all table rows, and hide those who don't match the search query
+      for (i = 0; i < tr.length; i++) {
+        td = tr[i].getElementsByTagName("td")[1];
+        if (td) {
+          if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            tr[i].style.display = "";
+          } else {
+            tr[i].style.display = "none";
+          }
+        }       
+      }
+    }
+
+
+
+    jQuery(document).ready(function($) {
+        $(".clickable-row").click(function() {
+            window.document.location = $(this).data("href");
+        });
+    });
+
+    </script>
+
+  </div>
+</body>
+</html>
