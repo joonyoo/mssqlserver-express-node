@@ -22,6 +22,8 @@ app.use(express.static(__dirname + "/public"));
 
 
 var agents = {};
+var agentfarms = {};
+
 
 sql.setDefaultConfig(secret.config);
 
@@ -29,13 +31,10 @@ sql.execute({
   query: sql.fromFile("./sql/get_agents")
 
   }).then( function(results){
-
-    // console.log(results[0]);
-
+     // console.log(results[0]);
     agents = results
-    // jsonfile.writeFile("./data/islandStats.json", results, function (err) { 
-    // console.error(err)
-    //  })
+
+
 
     }, function (err){
     console.log ("Something bad happened:", err);
@@ -43,9 +42,42 @@ sql.execute({
  
 
 
+sql.execute({
+  query: sql.fromFile("./sql/get_agents_farms_all")
+
+  }).then( function(results){
+     // console.log(results[0]);
+    agentfarms = results
+
+    }, function (err){
+    console.log ("Something bad happened:", err);
+  });
+ 
+
+
+
 app.get("/", function(req, res){
     //res.redirect("/farm");
-  console.log(agents[0])
+  //console.log(agents[0]);
+  //console.log(agentfarms[0]);
+
+  agents.forEach(function(agent) {
+     agent.farms = [];
+     agentfarms.forEach( function (farm){
+       if (farm.pruagentid == agent.pruagentid ){
+     
+        agent.farms.push(farm)
+
+       };
+     }
+
+ );
+});
+
+     console.log(agents[61].farms)
+
+
+
   res.render("agents", {agents: agents})
 
 });
@@ -61,7 +93,7 @@ app.get("/", function(req, res){
     //res.json("Home Page " + req.params.id)
 
       sql.execute({
-        query: sql.fromFile("./sql/get_agents_farms"),
+        query: sql.fromFile("./sql/get_agents_farms_by_id"),
         params:{
           pruagentid : {
             type: sql.int,

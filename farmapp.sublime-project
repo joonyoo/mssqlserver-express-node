@@ -9,6 +9,9 @@
 		},
 		{
 			"path": "C:\\inetpub\\wwwroot\\datatable"
+		},
+		{
+			"path": "C:\\inetpub\\wwwroot\\accordian-bootstrap"
 		}
 	]
 }
